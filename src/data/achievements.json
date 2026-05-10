@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "1st Place – Techno Summit at Sathyabama Institute of Science and Technology",
+    "desc": "Secured 1st place at the Techno Summit hosted by Sathyabama Institute of Science and Technology for presenting DiabEase, an AI-powered diabetes management platform featuring insulin dosage prediction, personalized diet recommendations, and real-time blood sugar alerts aimed at improving healthcare accessibility and patient support.",
+    "tags": [
+      "Hackathon",
+      "Healthcare",
+      "AI",
+      "MachineLearning",
+      "DiabEase",
+      "Innovation"
+    ],
+    "date": "2024",
+    "images": [
+      "/achievements/projectexpo/1.jpeg",
+      "/achievements/projectexpo/2.jpeg",
+      "/achievements/projectexpo/3.jpeg",
+      "/achievements/projectexpo/4.jpeg"]
+  },
+  {
+    "id": 2,
+    "title": "1st Place – Project Expo 2K25 at St. Xavier’s Catholic College of Engineering",
+    "desc": "Secured 1st place at Project Expo 2K25 conducted by St. Xavier’s Catholic College of Engineering, Nagercoil, organized by IEEE Educational Society SBC - 62851 and IEEE Photonics Society - 62851. Presented DiabEase, an AI-powered personalized diabetes assistant designed to support intelligent diabetes management through predictive healthcare and real-time assistance systems.",
+    "tags": [
+      "Hackathon",
+      "IEEE",
+      "Healthcare",
+      "AI",
+      "MachineLearning",
+      "DiabEase",
+      "Innovation",
+      "ProjectExpo"
+    ],
+    "date": "2025",
+    "images": [
+      "/achievements/IEEE/1.jpeg",
+      "/achievements/IEEE/2.jpeg",
+      "/achievements/IEEE/3.jpeg",
+      "/achievements/IEEE/4.jpeg",
+      "/achievements/IEEE/5.jpeg",
+      "/achievements/IEEE/6.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "1st Place – CodeFrei AI National-Level Hackathon at St. Joseph’s College of Engineering",
+    "desc": "Secured 1st place at CodeFrei AI, a 24-hour national-level AI hackathon hosted by St. Joseph’s College of Engineering. Led Team BDNA in developing an AI-powered Message Control Protocol (MCP) for Telegram Messenger focused on real-time moderation, spam filtering, phishing detection, hate speech control, and intelligent communication safety using AI-driven bots and NLP systems.",
+    "tags": [
+      "Hackathon",
+      "AI",
+      "MachineLearning",
+      "CyberSecurity",
+      "NLP",
+      "Telegram",
+      "MCP",
+      "Innovation"
+    ],
+    "date": "2025",
+    "images": [
+      "/achievements/codefrei/1.jpeg",
+      "/achievements/codefrei/2.jpeg",
+      "/achievements/codefrei/3.jpeg",
+      "/achievements/codefrei/4.jpeg",
+      "/achievements/codefrei/5.jpeg",
+      "/achievements/codefrei/6.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "2nd Place – AI AppXcelerate at SRM Institute of Science and Technology, Ramapuram",
+    "desc": "Secured 2nd place at AI AppXcelerate, an AI-focused competition organized by SRM Institute of Science and Technology, Ramapuram. Collaborated on developing an innovative AI-driven solution that demonstrated problem-solving, strategic planning, and real-world application development in a highly competitive environment.",
+    "tags": [
+      "Hackathon",
+      "AI",
+      "MachineLearning",
+      "Innovation",
+      "SRM",
+      "Competition",
+      "Teamwork"
+    ],
+    "date": "2025",
+    "images": [
+      "/achievements/appxcelerate/1.jpeg",
+      "/achievements/appxcelerate/2.jpeg",
+      "/achievements/appxcelerate/3.jpeg",
+      "/achievements/appxcelerate/4.jpeg",
+      "/achievements/appxcelerate/5.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "1st Place – Ideathon at TECHBETA 2026, St. Xavier’s Catholic College of Engineering",
+    "desc": "Secured 1st place in the Ideathon at TECHBETA 2026, a National Level Technical Symposium hosted by St. Xavier’s Catholic College of Engineering. Presented ResQFlow, an AI-powered food rescue ecosystem designed to reduce food waste through surplus prediction, intelligent donor-to-NGO matching, volunteer route optimization, and perishability-aware logistics using advanced AI and optimization techniques.",
+    "tags": [
+      "Hackathon",
+      "AI",
+      "MachineLearning",
+      "DeepLearning",
+      "Optimization",
+      "FoodTech",
+      "Innovation",
+      "ResQFlow",
+      "Ideathon"
+    ],
+    "date": "2026",
+    "images": [
+      "/achievements/techbeta/1.jpeg",
+      "/achievements/techbeta/2.jpeg",
+      "/achievements/techbeta/3.jpeg",
+      "/achievements/techbeta/4.jpeg"
+    ]
+  }
+]

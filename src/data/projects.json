@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Automated Lunar Crater Detection on Chandrayaan-2 TMC-2 Images",
+    "desc": "Inspired by ISRO’s research on automated lunar crater detection using Chandrayaan-2 TMC-2 imagery, this project utilizes a U-Net model with a ResNet18 backbone for semantic segmentation of lunar craters. Trained on high-resolution TMC-2 lunar surface datasets, the system accurately identifies and segments craters from complex terrain imagery for lunar surface analysis.",
+    "tags": [
+      "PyTorch",
+      "Torchvision",
+      "OpenCV",
+      "NumPy",
+      "Matplotlib",
+      "UNet",
+      "ResNet18"
+    ],
+    "featured": true,
+    "images": [
+      "/projects/lunarcrater/lunar1.jpeg",
+      "/projects/lunarcrater/lunar2.jpeg",
+      "/projects/lunarcrater/lunar3.jpeg",
+      "/projects/lunarcrater/lunar4.jpeg"
+    ],
+    "siteLink": "https://example.com",
+    "demoVideo": ""
+  },
+  {
+    "id": 2,
+    "title": "Mirage – AI-Powered Digital Twin Creation & Manipulation using Isaac Sim",
+    "desc": "Mirage is a collaborative team project developed under the HiveMind community focused on building an intelligent text-to-digital twin manipulation system using NVIDIA Isaac Sim. The platform combines NeRF-based 3D scene reconstruction, robotic manipulation, asset querying, and AI-driven asset retrieval to transform real-world environments into interactive digital twins.\n\nThe system consists of multiple core modules: Pic2Scene for generating 3D spatial environments from user-captured videos, robotic manipulation for interacting with virtual assets, and an intelligent asset querying pipeline for organizing and refining simulated environments.\n\nI specifically worked on the Retrieval-Augmented Generation (RAG) system powering smart asset retrieval and context-aware scene understanding. The RAG pipeline leverages Qwen3-235B-A22B as the Large Language Model, Pinecone as the vector database, and NV-Embed-ODE-7B-v1 for embedding generation. The system interprets natural language scene descriptions, identifies required assets, performs semantic similarity search, and retrieves the most relevant objects efficiently for scene generation within Isaac Sim. This significantly improves the intelligence, scalability, and automation of digital environment creation.",
+    "tags": [
+    "Python",
+    "Qwen3-235B-A22B",
+    "Pinecone",
+    "RAG",
+    "NV-Embed-ODE-7B-v1"
+  ],
+    "featured": true,
+        "images": [
+      "/projects/mirage/mirage1.png",
+      "/projects/mirage/mirage2.png",
+      "/projects/mirage/mirage3.png",
+      "/projects/mirage/mirage4.png"
+    ],
+    "siteLink": "",
+    "demoVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": 3,
+    "title": "MCP – AI-Powered Message Control Protocol for Telegram",
+    "desc": "MCP (Message Control Protocol) is a collaborative team project focused on building an AI-driven Telegram moderation and security framework for automated community protection, threat detection, and intelligent content moderation at scale. The system integrates multiple specialized bots including PurgeBot for toxicity and image moderation, SpamKeeper for spam detection, SecurityBot for phishing and fake news analysis, Terragate for geo-fencing and access restriction, MessageBouncer for contextual user verification, and ShadowMsg for stealth moderation and encrypted keyword-triggered workflows.\n\nBuilt using asynchronous Python networking and modern NLP pipelines, MCP leverages transformer-based deep learning models for hate speech detection, spam filtering, malicious link analysis, misinformation identification, and contextual moderation. The framework supports automated enforcement systems, real-time moderation pipelines, admin analytics, and scalable Telegram group security.\n\nThe project combines machine learning, NLP, cybersecurity, and distributed communication systems to create a modular AI-powered moderation ecosystem for communities, enterprises, universities, and secure organizational communication platforms.",
+    "tags": [
+    "Python",
+    "PyTorch",
+    "Transformers",
+    "HuggingFace",
+    "Scikit-Learn"
+  ],
+    "featured": true,
+    "image": "/projects/mcp/mcp.png",
+    "siteLink": "https://example.com",
+    "demoVideo": ""
+  },
+  {
+    "id": 4,
+    "title": "DiabEase – AI-Powered Diabetes Management & Retinopathy Detection System",
+    "desc": "DiabEase is an intelligent healthcare web application designed to simplify diabetes management using Machine Learning, Deep Learning, and Computer Vision. The platform provides AI-powered insulin dosage prediction, personalized nutrition recommendations based on blood sugar levels and dietary preferences, automated emergency SMS alerts through Twilio, and real-time diabetic retinopathy detection using a custom CNN model.\n\nThe system combines predictive healthcare analytics with real-time computer vision to deliver a comprehensive diabetes assistance platform. The insulin prediction module leverages Linear Regression models trained on medical datasets, while the retinopathy detection pipeline utilizes PyTorch, Torchvision, and OpenCV to identify retinal abnormalities through live webcam analysis. The application also integrates automated emergency communication workflows for critical glucose-level events, creating a smart and proactive healthcare support ecosystem.",
+    "tags": [
+      "Flask",
+      "PyTorch",
+      "Torchvision",
+      "OpenCV",
+      "Twilio"
+    ],
+    "featured": false,
+    "images": [
+      "/projects/diabease/diab1.png",
+      "/projects/diabease/diab2.png",
+      "/projects/diabease/diab3.png"
+    ],
+    "siteLink": "",
+    "demoVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": 5,
+    "title": "BookSpin AI – Intelligent Literary Transformation Workflow using LangGraph & LLMs",
+    "desc": "BookSpin AI is an AI-powered literary transformation pipeline designed to scrape, rewrite, review, and refine book content using advanced Large Language Models with Human-In-The-Loop (HITL) feedback integration. Built on LangGraph orchestration and LangChain workflows, the system automates the end-to-end process of generating creative literary variations while maintaining human-guided quality assurance.\n\nThe platform utilizes Playwright for real-time web scraping of book content, Groq-hosted LLaMA3-70B models for content spinning, reviewing, and editing, and ChromaDB for storing versioned outputs with rich metadata including quality scores, timestamps, source tracking, and agent information. Human intervention is integrated at multiple workflow stages to review, edit, and approve generated content, enabling a collaborative AI-assisted literary editing ecosystem.\n\nThe project demonstrates intelligent workflow orchestration, AI-assisted creative writing, vector database versioning, and iterative content refinement through automated and human-guided pipelines.",
+    "tags": [
+      "LangGraph",
+      "LangChain",
+      "Groq",
+      "LLaMA3-70B",
+      "Playwright",
+      "ChromaDB"
+    ],
+    "featured": false,
+    "image": "/projects/bookspin/bookspin.png",
+    "siteLink": "https://example.com",
+    "demoVideo": ""
+  },
+  {
+    "id": 6,
+    "title": "AI-Powered Bioinformatics Platform for Protein Inhibitor Prediction & Structural Analysis",
+    "desc": "Developed a bioinformatics and computational drug discovery platform focused on early-stage inhibitor discovery for cancer-related proteins including p53, BRCA1, EGFR, BRAF, and HER2. The system enables users to explore protein targets, generate predicted inhibitor peptide sequences, and visualize molecular structures through an integrated AI-assisted workflow.\n\nThe platform simulates a machine learning–driven inhibitor prediction pipeline using protein–inhibitor mappings, FASTA sequence generation, and PDB structural analysis to support preliminary protein–inhibitor interaction studies. Designed as a scalable framework for computational biology research, the architecture supports future integration of advanced deep learning techniques including transformer-based protein language models, recurrent neural networks (RNNs), generative sequence prediction models, binding affinity prediction, molecular docking, and AI-assisted peptide generation.\n\nBy combining bioinformatics, structural biology, and AI-driven prediction workflows, the system provides an accessible environment for educational research, structural bioinformatics, and computational drug discovery applications.",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "Transformers",
+      "FASTA",
+      "PDB"
+    ],
+    "featured": false,
+    "image": "/projects/protein/protein.png",
+    "siteLink": "",
+    "demoVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": 7,
+    "title": "Pollution Sentinel – Real-Time Air Quality Monitoring & Predictive Analytics Platform",
+    "desc": "Pollution Sentinel is a collaborative team project developed to provide real-time environmental awareness through intelligent air quality monitoring and predictive analytics. The platform focuses on delivering accessible and actionable pollution insights that help individuals, communities, and urban planners make informed health and safety decisions.\n\nThe system enables real-time air quality tracking, zone-based pollution monitoring, automated alerts for hazardous pollution levels, and predictive insights to support proactive environmental action. Designed with the vision of bridging the gap between raw environmental data and meaningful decision-making, Pollution Sentinel aims to support smart-city initiatives, public health awareness, and data-driven urban planning.\n\nBy combining environmental monitoring with intelligent analytics workflows, the platform demonstrates how technology can empower citizens with timely environmental information while supporting proactive health measures and sustainable urban development.",
+    "tags": [
+      "Python",
+      "MachineLearning",
+      "DataAnalytics",
+      "EnvironmentalMonitoring",
+      "PredictiveAnalytics",
+      "DataVisualization"
+    ],
+    "featured": false,
+    "images": [
+      "/projects/pollution/pollution1.jpeg",
+      "/projects/pollution/pollution2.jpeg",
+      "/projects/pollution/pollution3.jpeg",
+      "/projects/pollution/pollution4.jpeg"
+    ],
+    "siteLink": "",
+    "demoVideo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": 8,
+    "title": "A-EYE – AI Assistance System for Visually Impaired Individuals",
+    "desc": "A-EYE is an AI-powered assistive technology platform designed to enhance the independence, safety, and daily interaction capabilities of visually impaired individuals through real-time environmental awareness and intelligent voice-based assistance. The system integrates hardware components such as cameras, microphones, LiDAR, and ultrasonic sensors with AI-driven software modules for object detection, navigation support, speech interaction, emergency response, and smart accessibility workflows.\n\nThe platform combines computer vision, deep learning, and natural language processing to deliver functionalities including voice-activated payments, facial recognition, emergency alert systems, product detection, weather updates, obstacle detection, and conversational AI assistance. Leveraging models such as YOLO, ResNet, MobileNet, Faster R-CNN, and NLP frameworks like Dialogflow, the system provides contextual understanding of the surrounding environment and enables hands-free interaction through intelligent voice feedback.\n\nDesigned as a scalable accessibility ecosystem, A-EYE demonstrates the integration of AI, IoT hardware, real-time computer vision, and conversational systems to create a comprehensive assistive solution for navigation, communication, safety, and daily task automation.",
+    "tags": [
+      "Python",
+      "OpenCV",
+      "PyTorch",
+      "YOLO",
+      "ResNet"
+    ],
+    "featured": true,
+    "images": [
+      "/projects/aeye/aeye1.jpeg",
+      "/projects/aeye/aeye2.png"
+    ],
+    "siteLink": "https://example.com",
+    "demoVideo": ""
+  }
+]

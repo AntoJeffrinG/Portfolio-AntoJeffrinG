@@ -1,0 +1,33 @@
+[
+  {
+    "id": 3,
+    "title": "Core Team Member",
+    "company": "HiveMind SIST",
+    "period": "Jan 2025 -Present",
+    "desc": "Active member of Hive Mind, contributing to AI, ML, and DL projects, collaborating on interdisciplinary research, and engaging in knowledge-sharing initiatives within the AI Supercomputing Lab at Sathyabama.",
+    "tags": ["Machine Learning","Deep Learning", "Pytorch","Transformers","HuggingFace","LLMs","RAG","Agentic AI"],
+    "images": ["/laptop_bg.png"]
+  },
+  {
+    "id": 2,
+    "title": "Data Science & AI Intern",
+    "company": "AVL India",
+    "period": "Jan 2026 - April 2026",
+    "desc": "Designed and built custom responsive applications for businesses, improving their productivity and increasing performance.",
+    "tags": ["React", "Node.js","SQLite","RAG"],
+    "images": ["/laptop_bg.png"]
+  },
+  {
+    "id": 1,
+    "title": "AI Research Intern",
+    "company": "MIT Square",
+    "period": "Oct 2024 - Dec 2024",
+    "desc": "Conceived and co-patented A-EYE, an AI-powered accessibility assistant for the visually impaired, and developed the methodology integrating Computer Vision, NLP, and IoT sensors.",
+    "tags": ["Python",
+      "OpenCV",
+      "PyTorch",
+      "YOLO",
+      "ResNet"],
+    "images": ["/laptop_bg.png"]
+  }
+]

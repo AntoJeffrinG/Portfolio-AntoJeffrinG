@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Neural Networks and PyTorch",
+    "issuer": "IBM",
+    "date": "Dec 2024",
+    "image": "/certificates/1.png"
+  },
+  {
+    "id": 2,
+    "title": "Supervised Machine Learning: Regression and Classification",
+    "issuer": "DeepLearning.AI & Stanford Online",
+    "date": "Sep 2024",
+    "image": "/certificates/2.png"
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "issuer": "Elewayte",
+    "date": "May 2024",
+    "image": "/certificates/3.png"
+  },
+  {
+    "id": 4,
+    "title": "UOC Engineering & Technology Program",
+    "issuer": "University of Cyberjaya",
+    "date": "Oct 2024",
+    "image": "/certificates/4.png"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Training",
+    "issuer": "Zero2Infynite Security & Research",
+    "date": "Apr 2026",
+    "image": "/certificates/5.png"
+  },
+  {
+    "id": 6,
+    "title": "Communication Skills",
+    "issuer": "TCS iON",
+    "date": "Sep 2023",
+    "image": "/certificates/6.png"
+  }
+]
