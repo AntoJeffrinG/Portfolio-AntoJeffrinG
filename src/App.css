@@ -813,3 +813,226 @@ body {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
+/* =============================================
+   MOBILE RESPONSIVE STYLES
+   Breakpoint: 768px and below
+   ============================================= */
+
+@media (max-width: 768px) {
+
+  /* --- Navbar --- */
+  .navbar {
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 1.8rem !important;
+  }
+
+  .nav-links {
+    gap: 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  /* --- Portfolio Container --- */
+  .portfolio-container {
+    padding-top: 75px;
+  }
+
+  /* --- Main Content --- */
+  .main-content {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 2.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: calc(100vh - 75px);
+  }
+
+  .about-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-content .left-section,
+  .about-content .right-section {
+    padding: 0;
+  }
+
+  /* --- Left Section --- */
+  .left-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    letter-spacing: -1.5px;
+  }
+
+  .about-title {
+    font-size: 4.5rem;
+    letter-spacing: -2px;
+  }
+
+  .underline {
+    width: 70px;
+    height: 6px;
+    margin-top: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .social-links {
+    margin-top: 2rem;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  /* --- Center Section (Project Grid) --- */
+  .center-section {
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  .project-card {
+    height: auto !important;
+    min-height: 420px;
+  }
+
+  .certification-card {
+    height: auto !important;
+    min-height: 380px;
+  }
+
+  .card-img-placeholder {
+    height: 220px;
+  }
+
+  /* --- Right Section --- */
+  .right-section {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .intro-block {
+    max-width: 100%;
+    padding-left: 0;
+    gap: 1rem;
+  }
+
+  .intro-title {
+    font-size: 1.7rem;
+  }
+
+  .intro-desc {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* --- All Projects / Achievements / Events Grid --- */
+  .all-projects-content {
+    padding: 0 1.5rem 3rem 1.5rem;
+  }
+
+  .all-projects-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+  }
+
+  /* --- Highlights Grid --- */
+  .highlights-grid {
+    padding: 2rem 0;
+    gap: 1.5rem;
+  }
+
+  .highlight-large-card {
+    flex: 0 1 100%;
+    padding: 2.5rem 2rem;
+  }
+
+  .highlight-large-card .h-title {
+    font-size: 1.4rem;
+  }
+
+  /* --- Contact Section --- */
+  .contact-right {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .contact-form {
+    padding: 2rem 1.5rem;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .contact-info a {
+    font-size: 1rem !important;
+  }
+
+  /* --- Modal --- */
+  .modal-content {
+    width: 95%;
+    max-height: 92vh;
+    border-radius: 12px;
+  }
+
+  .modal-img-wrapper {
+    height: 220px;
+  }
+
+  .modal-body {
+    padding: 1.5rem;
+  }
+
+  .modal-title {
+    font-size: 1.7rem !important;
+  }
+
+  .modal-desc {
+    font-size: 1rem !important;
+  }
+
+  /* --- Tag bar --- */
+  .card-tags {
+    height: 52px;
+  }
+
+  /* --- Fullscreen Overlay Arrows --- */
+  .gallery-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 380px) {
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .about-title {
+    font-size: 3.5rem;
+  }
+
+  .nav-links {
+    gap: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+}
